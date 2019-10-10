@@ -1,6 +1,8 @@
 # Pong3D
 
-![Alt Screenshot](https://github.com/Milchreis/Pong3D/raw/master/screenshot.jpg)
+<p align="center">
+  <img src="https://github.com/Milchreis/Pong3D/raw/master/screenshot.jpg" />
+</p>
 
 After the last coding challange with [Snake3D](https://milchreis.github.io/Snake3D/) I decide to make a Pong3D. 
 It's a very simple implementation.
