@@ -40,8 +40,13 @@ function draw() {
   leftPaddle.update();
   rightPaddle.update();
   
-  ball.checkCollision(leftPaddle);
-  ball.checkCollision(rightPaddle);
+  let hitLeft = ball.checkCollision(leftPaddle);
+  let hitRight = ball.checkCollision(rightPaddle);
+
+  if(hitLeft || hitRight) {
+    leftPaddle.speedUp();
+    rightPaddle.speedUp();
+  }
 
   leftPaddle.render();
   rightPaddle.render();

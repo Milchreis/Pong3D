@@ -34,6 +34,8 @@ class Ball {
             this.speedUp();
             this.update();
         }
+
+        return hit;
     }
 
     render() {

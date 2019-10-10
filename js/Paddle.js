@@ -6,6 +6,7 @@ class Paddle {
         this.points = 0;
         this.width = 15;
         this.speed = 10;
+        this.speedIncrease = 0.25;
         this.color = color(255, 255, 255);
     }
 
@@ -17,6 +18,10 @@ class Paddle {
     down() {
         if(this.y+this.size < height)
             this.y += this.speed;
+    }
+
+    speedUp() {
+        this.speed += this.speedIncrease;
     }
 
     update() {
