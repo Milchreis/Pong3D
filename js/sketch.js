@@ -15,6 +15,8 @@ function setup() {
   textFont(font);
   textSize(25);
   textAlign(CENTER, CENTER);
+
+  angleMode(DEGREES);
   
   ball = new Ball(width/2, height/2, 10);
   leftPaddle = new Paddle(50, height/2, 100);
@@ -23,8 +25,12 @@ function setup() {
 
 function draw() {
   background(33, 33, 33);
-  translate(-width / 2, -height / 2, 0);
-
+  
+  let angle = map(sin(millis()/10), -1, 1, -8, 8);
+  rotateX(angle);
+  
+  translate(-width / 2, -height / 2, -80);
+  
   pointLight(200, 200, 200, width/2, height/2, 1000);
 
   checkInput();
