@@ -1,7 +1,6 @@
-# Pong3D
-
 <p align="center">
   <img src="https://github.com/Milchreis/Pong3D/raw/master/logo.png" />
+  <br />
   <img src="https://github.com/Milchreis/Pong3D/raw/master/screencast.gif" />
 </p>
 
