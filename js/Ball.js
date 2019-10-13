@@ -31,7 +31,11 @@ class Ball {
         let hit = collideRectCircle(paddle.x, paddle.y, paddle.width, paddle.size, this.x, this.y, 2*this.radius);
         if(hit) {
             this.velocity.x = this.velocity.x * -1;
-            this.speedUp();
+
+            if(this.velocity.x < 20) {
+                this.speedUp();
+            }
+
             this.update();
         }
 

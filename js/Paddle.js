@@ -24,7 +24,21 @@ class Paddle {
         this.speed += this.speedIncrease;
     }
 
-    update() {
+    update(ball) {
+        if(!ball) {
+            return;
+        } else {
+            this.speed = 8;
+        }
+
+        if(ball.velocity.x < 0 && ball.y > this.y+this.size/2) {
+            this.down();
+        }
+        
+        if(ball.velocity.x < 0 && ball.y < this.y+this.size/2) {
+            this.up();
+        }
+
     }
 
     render() {

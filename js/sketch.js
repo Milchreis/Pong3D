@@ -37,7 +37,7 @@ function draw() {
   checkPoints();
 
   ball.update();
-  leftPaddle.update();
+  leftPaddle.update(ball);
   rightPaddle.update();
   
   let hitLeft = ball.checkCollision(leftPaddle);
