@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Milchreis/Pong3D/raw/master/logo.png" />
+  <img src="https://github.com/Milchreis/Pong3D/raw/master/img/logo.png" />
 </p>
 
 
@@ -11,7 +11,7 @@ Use `W` and `S` for the left and `UP` and `DOWN` for the right player.
 Play it here: https://milchreis.github.io/Pong3D/
 
 <p align="center">
-  <img src="https://github.com/Milchreis/Pong3D/raw/master/screencast.gif" />
+  <img src="https://github.com/Milchreis/Pong3D/raw/master/img/screencast.gif" />
 </p>
 
 # Ideas for PR's

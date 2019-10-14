@@ -1,0 +1,68 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.center {
+    margin: 0px auto;
+    text-align: center;
+    width: 50%;
+}
+
+#game {
+    display: none;
+}
+
+canvas {
+    display: flex;
+    vertical-align: middle;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 15px;
+    border-radius: 15px;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#logo img {
+    width: 300px;
+}
+
+p {
+    color: #6d6d6d;
+    text-align: center;
+    font-size: 14px;
+}
+
+.modeButton {
+    padding: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.modeButton:hover {
+    background-color: #e4e4e4;
+    box-shadow: 0px 6px 0px #d8d8d8;
+}
+
+.buttonStyle {
+    color: #575757;
+    background-color: #e1e1e1;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 6px 0px #d0d0d0;
+}
+
+code {}
+
+#sketch-holder {
+    display: none;
+}
