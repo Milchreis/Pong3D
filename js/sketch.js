@@ -9,6 +9,8 @@ function preload() {
 }
 
 function setup() {
+  smooth();
+
   let canvas =  createCanvas(800, 400, WEBGL);
   canvas.parent('sketch-holder');
 
