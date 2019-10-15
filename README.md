@@ -14,6 +14,11 @@ Play it here: https://milchreis.github.io/Pong3D/
   <img src="https://github.com/Milchreis/Pong3D/raw/master/img/screencast.gif" />
 </p>
 
-# Ideas for PR's
+## Ideas for PR's
 * Moveable camera
 * Sound effects
+
+## Special Thanks
+
+ * [p5js](https://github.com/processing/p5.js) for the best creative coding framework for JS
+ * [nostalgic-css](https://github.com/nostalgic-css/NES.css) for the awesome NES.css library
