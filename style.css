@@ -48,6 +48,19 @@ p {
     display: none;
 }
 
+#github-corner:hover {
+    opacity: 1.0;
+}
+
+#github-corner {
+    margin-top: 5px;
+    position: fixed;
+    top: 0px;
+    right: 5px;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
 #sketch-holder {
     display: none;
 }
