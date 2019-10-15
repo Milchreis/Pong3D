@@ -15,7 +15,7 @@ function startMultiplayer() {
 function startGame(multiplayer) {
     isMultiplayer = multiplayer;
     document.getElementById("modeSelection").style.display = "none";
-    document.getElementById("game").style.display = "block";
+    document.getElementById("instructions").style.display = "block";
     document.getElementById("sketch-holder").style.display = "block";
     loop();
 }

@@ -8,6 +8,8 @@
     <title>Pong3D</title>
 
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css@2.2.1/css/nes.min.css" rel="stylesheet" />
 
     <script src="addons/p5.min.js"></script>
     <script src="addons/p5.collide2d.min.js"></script>
@@ -23,15 +25,19 @@
     </div>
 
     <div id="modeSelection" class="center">
-        <p class="buttonStyle modeButton" onclick="startSingleplayer();">One Player</p>
-        <p class="buttonStyle modeButton" onclick="startMultiplayer();">Two Player</p>
+        <a class="nes-btn is-primary" href="#" onclick="startSingleplayer();">ONE PLAYER</a>
+        <a class="nes-btn is-primary" href="#" onclick="startMultiplayer();">TWO PLAYER</a>
     </div>
 
     <div id="sketch-holder">
     </div>
 
-    <div id="game">
-        <p>Use <code class="buttonStyle">W</code> and <code class="buttonStyle">S</code> for the left and <code class="buttonStyle">🠹</code> and <code class="buttonStyle">🠻</code> for the right player.</p>
+    <div id="instructions">
+        <p>Use
+            <code class="nes-btn" onclick="leftPaddle.up();">W</code> and
+            <code class="nes-btn" onclick="leftPaddle.down();">S</code> for the left and
+            <code class="nes-btn" onclick="rightPaddle.up();">🡅</code> and
+            <code class="nes-btn" onclick="rightPaddle.down();">🡇</code> for the right player.</p>
     </div>
 
 </body>
