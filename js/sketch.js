@@ -82,11 +82,11 @@ function draw() {
 
 function checkPoints() {
     if (ball.x > width + 100) {
-        rightPaddle.points++;
+        leftPaddle.points++;
         ball.reset();
 
     } else if (ball.x < -100) {
-        leftPaddle.points++;
+        rightPaddle.points++;
         ball.reset();
     }
 }
