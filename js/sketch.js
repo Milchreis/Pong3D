@@ -57,7 +57,7 @@ function draw() {
     checkPoints();
 
     ball.update();
-    leftPaddle.update(isMultiplayer ? ball : undefined);
+    leftPaddle.update(!isMultiplayer ? ball : undefined);
     rightPaddle.update();
 
     let hitLeft = ball.checkCollision(leftPaddle);
