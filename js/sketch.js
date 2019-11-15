@@ -4,6 +4,7 @@ let rightPaddle;
 let font;
 let isMultiplayer;
 let hitsounds = [];
+let maxAngle = 18;
 
 function startSingleplayer() {
     startGame(false);
@@ -48,8 +49,7 @@ function setup() {
 function draw() {
     background(33, 33, 33);
 
-    //let angle = map(sin(millis() / 10), -1, 1, -8, 8);
-    let angle = map(ball.x, 0, width, -8, 8);
+    let angle = map(ball.x, 0, width, maxAngle, -maxAngle);
     rotateY(angle);
 
     translate(-width / 2, -height / 2, -80);
